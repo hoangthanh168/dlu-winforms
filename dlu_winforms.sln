@@ -3,7 +3,20 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34003.232
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dlu_winforms", "dlu_winforms\dlu_winforms.csproj", "{05B98FED-9087-4CAC-8C9A-CE186A5AD9E6}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lab1", "Lab1", "{75EF92F8-8846-4575-97B3-EB3BE4790C6F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "bt_thietkeform", "bt_thietkeform", "{B44702DA-5439-4244-AF2A-F731259EDEEA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "bt_windowsform", "bt_windowsform", "{520784F1-6970-48B3-A706-6DA6C3677E1C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "cau_1", "cau_1\cau_1.csproj", "{E3908E7F-53F4-4EBE-BFA7-CCB168811868}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{73A95883-145E-427C-9E1A-CFEDD22B5093}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "thietkeform", "thietkeform\thietkeform.csproj", "{DC85788D-A1F5-4345-AFC4-8787D319BE86}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,13 +24,23 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{05B98FED-9087-4CAC-8C9A-CE186A5AD9E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{05B98FED-9087-4CAC-8C9A-CE186A5AD9E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{05B98FED-9087-4CAC-8C9A-CE186A5AD9E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{05B98FED-9087-4CAC-8C9A-CE186A5AD9E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3908E7F-53F4-4EBE-BFA7-CCB168811868}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3908E7F-53F4-4EBE-BFA7-CCB168811868}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3908E7F-53F4-4EBE-BFA7-CCB168811868}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3908E7F-53F4-4EBE-BFA7-CCB168811868}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC85788D-A1F5-4345-AFC4-8787D319BE86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC85788D-A1F5-4345-AFC4-8787D319BE86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC85788D-A1F5-4345-AFC4-8787D319BE86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC85788D-A1F5-4345-AFC4-8787D319BE86}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B44702DA-5439-4244-AF2A-F731259EDEEA} = {75EF92F8-8846-4575-97B3-EB3BE4790C6F}
+		{520784F1-6970-48B3-A706-6DA6C3677E1C} = {75EF92F8-8846-4575-97B3-EB3BE4790C6F}
+		{E3908E7F-53F4-4EBE-BFA7-CCB168811868} = {520784F1-6970-48B3-A706-6DA6C3677E1C}
+		{DC85788D-A1F5-4345-AFC4-8787D319BE86} = {B44702DA-5439-4244-AF2A-F731259EDEEA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FDD2192A-52A4-4FE3-AD6B-617022A045A1}
